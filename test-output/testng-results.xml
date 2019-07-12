@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52171" started-at="2019-06-21T17:02:53Z" finished-at="2019-06-21T17:03:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52171" started-at="2019-06-21T17:02:53Z" finished-at="2019-06-21T17:03:46Z">
+      <class name="com.excelautomation.tests.MPGTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.excelautomation.tests.MPGTest@7d9d1a19]" name="setUpTest" is-config="true" duration-ms="270" started-at="2019-06-21T17:02:53Z" finished-at="2019-06-21T17:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:com.excelautomation.tests.MPGTest@7d9d1a19]" name="setupMethod" is-config="true" duration-ms="16070" started-at="2019-06-21T17:02:54Z" finished-at="2019-06-21T17:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="gasMileageDDT()[pri:1, instance:com.excelautomation.tests.MPGTest@7d9d1a19]" name="gasMileageDDT" duration-ms="34126" started-at="2019-06-21T17:03:10Z" finished-at="2019-06-21T17:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gasMileageDDT -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.excelautomation.tests.MPGTest@7d9d1a19]" name="tearDownMethod" is-config="true" duration-ms="1155" started-at="2019-06-21T17:03:44Z" finished-at="2019-06-21T17:03:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gasMileageDDT status=SUCCESS method=MPGTest.gasMileageDDT()[pri:1, instance:com.excelautomation.tests.MPGTest@7d9d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.excelautomation.tests.MPGTest@7d9d1a19]" name="tearDownTest" is-config="true" duration-ms="524" started-at="2019-06-21T17:03:45Z" finished-at="2019-06-21T17:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.excelautomation.tests.MPGTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
